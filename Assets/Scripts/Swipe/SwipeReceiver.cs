@@ -5,6 +5,11 @@ using UnityEngine;
 public class SwipeReceiver : MonoBehaviour
 {
 
+    [SerializeField] private Transform _clubsDock;
+    [SerializeField] private Transform _spadesDock;
+    [SerializeField] private Transform _heartsDock;
+    [SerializeField] private Transform _diamondsDock;
+
     void Start()
     {
 
@@ -22,6 +27,23 @@ public class SwipeReceiver : MonoBehaviour
 
     public void OnSwipe(object sender, SwipeEventArgs args)
     {
-        Debug.Log("SWIPE");
+        if (args.CardShape == "clubs" && args.CardValue == 1)
+        {
+            args.HitObject.transform.position = _clubsDock.position;
+        }
+        else if (args.CardShape == "spades" && args.CardValue == 1)
+        {
+            args.HitObject.transform.position = _spadesDock.position;
+        }
+        else if (args.CardShape == "hearts" && args.CardValue == 1)
+        {
+            args.HitObject.transform.position = _heartsDock.position;
+        }
+        else if (args.CardShape == "diamonds" && args.CardValue == 1)
+        {
+            args.HitObject.transform.position = _diamondsDock.position;
+        }
+
+        Debug.Log(this);
     }
 }

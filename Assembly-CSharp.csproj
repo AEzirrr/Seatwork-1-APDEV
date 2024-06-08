@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{70E4FC5B-4B00-C244-E0F7-7DCEFC9488E2}</ProjectGuid>
+    <ProjectGuid>{282FC383-2245-6888-4E95-F517DD23B95D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\Swipe\ESwipeDirection.cs" />
     <Compile Include="Assets\Scripts\Drag\DragProperty.cs" />
     <Compile Include="Assets\Scripts\Swipe\SwipeEventArgs.cs" />
+    <Compile Include="Assets\Scripts\CardProperty.cs" />
     <Compile Include="Assets\Scripts\GestureManager.cs" />
     <Compile Include="Assets\Scripts\Extras\SpawnReceiver.cs" />
   </ItemGroup>

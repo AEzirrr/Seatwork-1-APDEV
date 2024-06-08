@@ -7,10 +7,8 @@ using UnityEngine;
 public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
 {
 
-    [SerializeField] 
-    private float _speed = 10f;
-    private Vector3 _targetPosition;
-
+    [SerializeField] private float _speed = 10f;
+    [SerializeField] private Vector3 _targetPosition;
 
 
     [SerializeField] private int _type;
@@ -32,7 +30,7 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
             case 1:
                 MoveDiagonal(args);
                 break;
-        }
+        }                                                                               
         Debug.Log("SWIPE");
     }
 
@@ -49,6 +47,7 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
         }
         Debug.Log("DRAG");
     }
+
 
     private void MovePerpendicular(SwipeEventArgs args)
     {

@@ -395,6 +395,7 @@
 -analyzer:"S:/Unity Editor/2023.2.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"S:/Unity Editor/2023.2.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/CardManager.cs"
+"Assets/Scripts/CardProperty.cs"
 "Assets/Scripts/Drag/DragEventArgs.cs"
 "Assets/Scripts/Drag/DragProperty.cs"
 "Assets/Scripts/Drag/DragReceiver.cs"

@@ -11,7 +11,6 @@ public class GestureManager : MonoBehaviour
 
     
     private Touch _trackedFinger; // Variable to track the touch input
-    
     private float _gestureTime; // Variable to track the duration of the gesture
 
     // Variables to store the start and end points of the touch
@@ -33,6 +32,10 @@ public class GestureManager : MonoBehaviour
     [SerializeField]
     private DragProperty _dragProperty;
     public EventHandler<DragEventArgs> OnDrag;
+
+    // Card stuff
+
+    
 
 
 
@@ -61,6 +64,8 @@ public class GestureManager : MonoBehaviour
 
             hitObject = hit.collider.gameObject;
         }
+
+        Debug.Log(hitObject);
 
         return hitObject;
     }
@@ -149,18 +154,33 @@ public class GestureManager : MonoBehaviour
             GameObject hitObject = this.GetHitObject(this._startPoint);
             Vector2 rawDirection = this._endPoint - this._startPoint;
             ESwipeDirection direction = this.GetSwipeDirection(rawDirection);
-            SwipeEventArgs args = new SwipeEventArgs(direction, rawDirection, this._startPoint);
+
+            CardProperty cardProperty = hitObject.GetComponent<CardProperty>();
+
+
+            string cardColor = cardProperty.CardColor;
+            string cardShape = cardProperty.CardShape;
+            int cardValue = cardProperty.CardValue;
+
+
+            Debug.Log(cardColor);
+            Debug.Log(cardShape);
+            Debug.Log(cardValue);
+
+
+
+            SwipeEventArgs args = new SwipeEventArgs(direction, rawDirection, this._startPoint, cardColor, cardShape, cardValue, hitObject);
 
             this.OnSwipe(this, args);
 
-            if (hitObject != null)
+            /*if (hitObject != null)
             {
                 ISwipeable handler = hitObject.GetComponent<ISwipeable>();
                 if (handler != null)
                 {
                     handler.OnSwipe(args);
                 }
-            }
+            }*/
         }
 
     }
@@ -206,6 +226,14 @@ public class GestureManager : MonoBehaviour
 
         return _swipeDirection;
     }
+
+
+
+
+
+
+
+
 
 
 
