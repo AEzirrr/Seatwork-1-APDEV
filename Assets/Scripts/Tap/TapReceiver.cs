@@ -43,6 +43,17 @@ public class TapReceiver : MonoBehaviour
 
                     if (!spawnReceiver.IsDocked())
                     {
+                        // !! Not sure if this is needed but idk
+                        // Set the previous card back to face-down before destroying it
+                        //CardProperty prevCardProperty = previousCard.GetComponent<CardProperty>();
+                        //if (prevCardProperty != null)
+                        //{
+                        //    prevCardProperty.SetFaceUp(false);
+                        //}
+                        //else
+                        //{
+                        //    Debug.LogWarning("CardProperty component not found on previous card!");
+                        //}
                         Destroy(previousCard);
                     }
                     else
@@ -54,8 +65,19 @@ public class TapReceiver : MonoBehaviour
 
                 GameObject template = randomizedDeck[currentIndex];
                 GameObject instance = Instantiate(template, spawnPos.position, Quaternion.identity);
-                instance.SetActive(true);
+                
+                // Set card to be face-up
+                CardProperty cardProperty = instance.GetComponent<CardProperty>();
+                if (cardProperty != null)
+                {
+                    cardProperty.SetFaceUp(true);
+                }
+                else
+                {
+                    Debug.LogWarning("CardProperty component not found on instantiated card!");
+                }
 
+                instance.SetActive(true);
                 previousCard = instance;
             }
         }
