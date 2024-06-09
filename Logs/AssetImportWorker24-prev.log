@@ -1,0 +1,1161 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.16f1 (7f45223012db) revision 8340770'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+S:\Unity Editor\2023.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker24
+-projectPath
+S:/Repositories/Seatwork-1-APDEV
+-logFile
+Logs/AssetImportWorker24.log
+-srvPort
+51547
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: S:/Repositories/Seatwork-1-APDEV
+S:/Repositories/Seatwork-1-APDEV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25432] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2641893959 [EditorId] 2641893959 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25432] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2641893959 [EditorId] 2641893959 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.16f1 (7f45223012db)
+[Subsystems] Discovering subsystems at path S:/Unity Editor/2023.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Repositories/Seatwork-1-APDEV/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003077 seconds.
+- Loaded All Assemblies, in  0.554 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 292 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1389ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (165ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (223ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (442ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.021 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (439ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (173ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (858ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3298 unused Assets / (1.1 MB). Loaded Objects now: 3847.
+Memory consumption went from 114.7 MB to 113.6 MB.
+Total: 8.342200 ms (FindLiveObjects: 0.738900 ms CreateObjectMapping: 0.646200 ms MarkObjects: 5.447500 ms  DeleteObjects: 1.506500 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.863 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1749ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (1.0 MB). Loaded Objects now: 3847.
+Memory consumption went from 114.7 MB to 113.7 MB.
+Total: 7.361000 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.484100 ms MarkObjects: 5.166100 ms  DeleteObjects: 1.236900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3279 unused Assets / (0.8 MB). Loaded Objects now: 3847.
+Memory consumption went from 114.8 MB to 113.9 MB.
+Total: 12.749300 ms (FindLiveObjects: 0.640600 ms CreateObjectMapping: 0.735300 ms MarkObjects: 9.290900 ms  DeleteObjects: 2.080200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 44592.053182 seconds.
+  path: Assets/Card Prefabs/H13.prefab
+  artifactKey: Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H13.prefab using Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73fcd32624ce3f9e87bee523bb34ca71') in 0.1340951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Card Prefabs/D6.prefab
+  artifactKey: Guid(118153ed37ff11c49b0b747e317d5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D6.prefab using Guid(118153ed37ff11c49b0b747e317d5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e369a6d0a21f0652ea2952ac9e90e80f') in 0.0094616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/D11.prefab
+  artifactKey: Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D11.prefab using Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edfa2cc36333624e010365410fc3a6e5') in 0.0089906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card Prefabs/C4.prefab
+  artifactKey: Guid(cc616f58c1952db419666cfb6b010e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C4.prefab using Guid(cc616f58c1952db419666cfb6b010e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '532a4bc97ceff25474ae5be8f5e36684') in 0.0078272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Card Prefabs/C6.prefab
+  artifactKey: Guid(3860c728cc3ce5248a98f0820fb9da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C6.prefab using Guid(3860c728cc3ce5248a98f0820fb9da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b7fac02fc72022acd2ea2dea1b1ba19') in 0.0080053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Card Prefabs/D12.prefab
+  artifactKey: Guid(ebd8a77c642aa874d957f6fe7ce8c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D12.prefab using Guid(ebd8a77c642aa874d957f6fe7ce8c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab769406bef8850f919c86c82e547ed2') in 0.0074536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Card Prefabs/D3.prefab
+  artifactKey: Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D3.prefab using Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a70e8426e4701559e4fe986efc46e543') in 0.0066356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Card Prefabs/C9.prefab
+  artifactKey: Guid(780489baf931060469507315d6f3f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C9.prefab using Guid(780489baf931060469507315d6f3f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faac45e334e1a86cbfa8e3607d165136') in 0.0083249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Card Prefabs/S8.prefab
+  artifactKey: Guid(edc5a2c43d5bbc343913e25a0927a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S8.prefab using Guid(edc5a2c43d5bbc343913e25a0927a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a0466ff59941207ba2c9db4bbd73c69') in 0.0070302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card Prefabs/H9.prefab
+  artifactKey: Guid(0303831a9dd6e114498dab3b2715fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H9.prefab using Guid(0303831a9dd6e114498dab3b2715fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4715af643f560b22d5eca417d17b6d14') in 0.0078351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card Prefabs/C8.prefab
+  artifactKey: Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C8.prefab using Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71b0f0adf4b6105dd5683a4c60348a05') in 0.0105458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Card Prefabs/S7.prefab
+  artifactKey: Guid(36278eca9994e2e408a39e8f86c54484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S7.prefab using Guid(36278eca9994e2e408a39e8f86c54484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f239186e791deb2d2c0ae68d253e4d9') in 0.0108366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Card Prefabs/S12.prefab
+  artifactKey: Guid(6940626a40c0274448af46e79442cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S12.prefab using Guid(6940626a40c0274448af46e79442cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2861dda5276a22c12538c4b9c3cdc5c5') in 0.0071969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1621ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (0.9 MB). Loaded Objects now: 3857.
+Memory consumption went from 117.3 MB to 116.4 MB.
+Total: 8.043900 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.455600 ms MarkObjects: 5.581900 ms  DeleteObjects: 1.509800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.599958 seconds.
+  path: Assets/Card Prefabs/S9.prefab
+  artifactKey: Guid(c0d7c4d25e807b04793f05dcd314d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S9.prefab using Guid(c0d7c4d25e807b04793f05dcd314d687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d3361b9e24008b44690f2b8d104f63') in 0.1221979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Card Prefabs/D7.prefab
+  artifactKey: Guid(54891990a65bf9d4b9526e6995fe7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D7.prefab using Guid(54891990a65bf9d4b9526e6995fe7528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76354d7b79170f80694a4d2140f9a920') in 0.0080035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card Prefabs/H13.prefab
+  artifactKey: Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H13.prefab using Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d0716c7ecf506e247d29008bd4a910d') in 0.0081086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card Prefabs/C3.prefab
+  artifactKey: Guid(a5f6cea9563066a4f85c6a260ee189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C3.prefab using Guid(a5f6cea9563066a4f85c6a260ee189ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121f77eafa2cf38c93032f9d0b7546b6') in 0.0083976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card Prefabs/H10.prefab
+  artifactKey: Guid(985078d62e0bd6d488779fa875017607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H10.prefab using Guid(985078d62e0bd6d488779fa875017607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5d75b73c1e85d3932ba4e910c515fa') in 0.0073313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card Prefabs/S11.prefab
+  artifactKey: Guid(281cff554634bbc418a3c9f2e509f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S11.prefab using Guid(281cff554634bbc418a3c9f2e509f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19618970c6485edb1278be6cf32c5748') in 0.0075803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/D6.prefab
+  artifactKey: Guid(118153ed37ff11c49b0b747e317d5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D6.prefab using Guid(118153ed37ff11c49b0b747e317d5b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11e7b2699c59dac1df9d6c89387ca88e') in 0.0085243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Card Prefabs/S3.prefab
+  artifactKey: Guid(302f1799baa6f8249a09d8f3f928f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S3.prefab using Guid(302f1799baa6f8249a09d8f3f928f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3323e5abe5ff4f5497df918ea456dff6') in 0.0079392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Card Prefabs/H4.prefab
+  artifactKey: Guid(4c09764ca47f4cb4e958d6c8362ba026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H4.prefab using Guid(4c09764ca47f4cb4e958d6c8362ba026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1216a6155da51391fe735333cc25cbc') in 0.0083092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/D11.prefab
+  artifactKey: Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D11.prefab using Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49caa869de419735a0b6131ede450494') in 0.0073092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/D5.prefab
+  artifactKey: Guid(c8cbdadc551c2344caef516f04f79918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D5.prefab using Guid(c8cbdadc551c2344caef516f04f79918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc08f4dea594375634254d00efc899fa') in 0.0077592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Card Prefabs/C2.prefab
+  artifactKey: Guid(450022300ddc6114dbef4e216cf1df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C2.prefab using Guid(450022300ddc6114dbef4e216cf1df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa383eed9403cefac903e3889c4dd0be') in 0.0078749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card Prefabs/D4.prefab
+  artifactKey: Guid(3469978de13df4b42904c48b7c9b25e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D4.prefab using Guid(3469978de13df4b42904c48b7c9b25e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04914b1927be1ad875d0d473b4613f10') in 0.0095617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Card Prefabs/C4.prefab
+  artifactKey: Guid(cc616f58c1952db419666cfb6b010e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C4.prefab using Guid(cc616f58c1952db419666cfb6b010e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab8ce2c674dc0b2be479caad1ca9de9') in 0.0072283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card Prefabs/C10.prefab
+  artifactKey: Guid(75ab79e3e1ad0b04dae58b12284e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C10.prefab using Guid(75ab79e3e1ad0b04dae58b12284e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb12f0fd3c1096ec11122e9cdc1eea8') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Card Prefabs/S1.prefab
+  artifactKey: Guid(e138971e487b5c44d90da26fc66420ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S1.prefab using Guid(e138971e487b5c44d90da26fc66420ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '003ddf9fd7d881a6324eb4317799ff0b') in 0.0088405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card Prefabs/C6.prefab
+  artifactKey: Guid(3860c728cc3ce5248a98f0820fb9da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C6.prefab using Guid(3860c728cc3ce5248a98f0820fb9da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7680a0eceddb05e55ef0a23ef2b9b93') in 0.0077496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/C11.prefab
+  artifactKey: Guid(a5786d2c27f822e43a841f2aa5128635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C11.prefab using Guid(a5786d2c27f822e43a841f2aa5128635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc1fcc44c3cafe364ae720de4f002146') in 0.0097957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Card Prefabs/H1.prefab
+  artifactKey: Guid(cc6785ad616b6dd45a1dd089cb26cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H1.prefab using Guid(cc6785ad616b6dd45a1dd089cb26cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b83d3dfb5262f7f77c67e7abe963c67') in 0.0104759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Card Prefabs/D12.prefab
+  artifactKey: Guid(ebd8a77c642aa874d957f6fe7ce8c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D12.prefab using Guid(ebd8a77c642aa874d957f6fe7ce8c319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec0044f685ea6fa8a6ba208ad834befd') in 0.009294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Card Prefabs/D3.prefab
+  artifactKey: Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D3.prefab using Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0cbd0c918ad4c5ca3c0239b7f49a24f') in 0.0097081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Card Prefabs/C9.prefab
+  artifactKey: Guid(780489baf931060469507315d6f3f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C9.prefab using Guid(780489baf931060469507315d6f3f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e8d9df9d580e5dc2f3f463d5ab363bc') in 0.0093333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Card Prefabs/H6.prefab
+  artifactKey: Guid(9a28983caade9a84cabb05fd546c3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H6.prefab using Guid(9a28983caade9a84cabb05fd546c3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab56d25d063f991c1a8ec27b01f1eeed') in 0.0086744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Card Prefabs/D10.prefab
+  artifactKey: Guid(1b60fadc5be15ec4798fe640fe9c0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D10.prefab using Guid(1b60fadc5be15ec4798fe640fe9c0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b0ef7ecfa5b3c54cd4ff5cc4d5fe72b') in 0.0103362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card Prefabs/C8.prefab
+  artifactKey: Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C8.prefab using Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3674c7d611bd1d4a67aa172570b31463') in 0.011151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/S7.prefab
+  artifactKey: Guid(36278eca9994e2e408a39e8f86c54484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S7.prefab using Guid(36278eca9994e2e408a39e8f86c54484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b5df728dd11583a1ebe73a1628a917') in 0.0094839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card Prefabs/S12.prefab
+  artifactKey: Guid(6940626a40c0274448af46e79442cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S12.prefab using Guid(6940626a40c0274448af46e79442cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a819a07ba1696a069357e1d60cb250be') in 0.0074239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1415ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (0.8 MB). Loaded Objects now: 3857.
+Memory consumption went from 119.3 MB to 118.5 MB.
+Total: 7.546700 ms (FindLiveObjects: 0.615200 ms CreateObjectMapping: 0.656800 ms MarkObjects: 5.015600 ms  DeleteObjects: 1.257600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3279 unused Assets / (0.8 MB). Loaded Objects now: 3857.
+Memory consumption went from 119.4 MB to 118.6 MB.
+Total: 11.799200 ms (FindLiveObjects: 0.841100 ms CreateObjectMapping: 0.750200 ms MarkObjects: 8.424700 ms  DeleteObjects: 1.781500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.731 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.759 seconds
+Domain Reload Profiling: 1491ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (139ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (0.8 MB). Loaded Objects now: 3857.
+Memory consumption went from 121.2 MB to 120.4 MB.
+Total: 8.306200 ms (FindLiveObjects: 0.495100 ms CreateObjectMapping: 0.536100 ms MarkObjects: 5.798700 ms  DeleteObjects: 1.475000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (676ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (0.9 MB). Loaded Objects now: 3857.
+Memory consumption went from 123.2 MB to 122.2 MB.
+Total: 7.488500 ms (FindLiveObjects: 0.574700 ms CreateObjectMapping: 0.477800 ms MarkObjects: 5.066100 ms  DeleteObjects: 1.368500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3279 unused Assets / (0.9 MB). Loaded Objects now: 3857.
+Memory consumption went from 123.3 MB to 122.4 MB.
+Total: 15.433000 ms (FindLiveObjects: 0.819100 ms CreateObjectMapping: 1.686000 ms MarkObjects: 11.040900 ms  DeleteObjects: 1.884500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (366ms)
+		LoadAssemblies (361ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3296 unused Assets / (0.9 MB). Loaded Objects now: 3857.
+Memory consumption went from 125.1 MB to 124.2 MB.
+Total: 6.615900 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.483000 ms MarkObjects: 4.570000 ms  DeleteObjects: 1.110500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 345.087864 seconds.
+  path: Assets/Card Prefabs/C2.prefab
+  artifactKey: Guid(450022300ddc6114dbef4e216cf1df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C2.prefab using Guid(450022300ddc6114dbef4e216cf1df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1668518bf355c40dcef9e1bdf5f6b3f9') in 0.1242852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Card Prefabs/D8.prefab
+  artifactKey: Guid(122e37b1f9bd35b498f468d3dd75d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D8.prefab using Guid(122e37b1f9bd35b498f468d3dd75d189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fb97a887973fa6ddeeb2b090e062656') in 0.008153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Card Prefabs/H13.prefab
+  artifactKey: Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H13.prefab using Guid(b3c579fb9f571a143a42113b7e221d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da11fac0a6519e75af09d150aa57d79e') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Card Prefabs/D1.prefab
+  artifactKey: Guid(c5a5f9bbb557f834886cf77a283ae9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D1.prefab using Guid(c5a5f9bbb557f834886cf77a283ae9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0387a847adf7dad82eaf5f5b69da785f') in 0.0082432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Card Prefabs/H8.prefab
+  artifactKey: Guid(cc2da992bd4d6e24ca19149a8509961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H8.prefab using Guid(cc2da992bd4d6e24ca19149a8509961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c48672c6cb3fe353af17f5675cd5526') in 0.0105846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Card Prefabs/S3.prefab
+  artifactKey: Guid(302f1799baa6f8249a09d8f3f928f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S3.prefab using Guid(302f1799baa6f8249a09d8f3f928f671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca4edaf6a0bff18d16211f15fba5eec9') in 0.0092685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Card Prefabs/D11.prefab
+  artifactKey: Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D11.prefab using Guid(e33ec023e0178cd42bdbd16a5fcd59f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6356102f97f691e9d63c7e74d5686369') in 0.006422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Card Prefabs/D4.prefab
+  artifactKey: Guid(3469978de13df4b42904c48b7c9b25e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D4.prefab using Guid(3469978de13df4b42904c48b7c9b25e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '634ff5ff0fddbfc932b933ac5f7496ed') in 0.0061321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/C10.prefab
+  artifactKey: Guid(75ab79e3e1ad0b04dae58b12284e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C10.prefab using Guid(75ab79e3e1ad0b04dae58b12284e3bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee9d9ffebaa09009e613497296e0b63') in 0.0070289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card Prefabs/H7.prefab
+  artifactKey: Guid(ba140985f7151a6488488940d00aab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H7.prefab using Guid(ba140985f7151a6488488940d00aab97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76bb0babca1d78e5f50409f509da5001') in 0.0072767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Card Prefabs/C7.prefab
+  artifactKey: Guid(6733ae6e99340a446881d2e1f381dc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C7.prefab using Guid(6733ae6e99340a446881d2e1f381dc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf83e8bf328a338005427b1542838d50') in 0.0074291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Card Prefabs/C11.prefab
+  artifactKey: Guid(a5786d2c27f822e43a841f2aa5128635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C11.prefab using Guid(a5786d2c27f822e43a841f2aa5128635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '394608a2fea80df05a450ec210dc7de5') in 0.0062676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Card Prefabs/D2.prefab
+  artifactKey: Guid(c30c8262ca99ae640867358c658a124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D2.prefab using Guid(c30c8262ca99ae640867358c658a124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9328ccc1a0c0c1287c022a39f7a9412e') in 0.0074846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Card Prefabs/D3.prefab
+  artifactKey: Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D3.prefab using Guid(6209484943bd8b94e93a09cc0728e202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731698fed21502d81567fdb86b08952d') in 0.0076977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Card Prefabs/C12.prefab
+  artifactKey: Guid(8030813253ae3e84d9bf8ca9baa4385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C12.prefab using Guid(8030813253ae3e84d9bf8ca9baa4385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1330518ef1981d607908c554f6a8e6b') in 0.0067939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Card Prefabs/H5.prefab
+  artifactKey: Guid(7d9703c757e7a78459b5de5fd1999fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H5.prefab using Guid(7d9703c757e7a78459b5de5fd1999fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15e7356a5d003fcd9ea095aa0d42b35b') in 0.0068088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Card Prefabs/D13.prefab
+  artifactKey: Guid(00d651efa38766f4f8075e14e738f961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D13.prefab using Guid(00d651efa38766f4f8075e14e738f961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30091d97295cdb17e177d5069fd0061') in 0.007172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/H12.prefab
+  artifactKey: Guid(c11128cefc11ca14490c7dad06688342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H12.prefab using Guid(c11128cefc11ca14490c7dad06688342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd5a34cf88cb3916ba36f7b8a99d6890') in 0.0064718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Card Prefabs/D10.prefab
+  artifactKey: Guid(1b60fadc5be15ec4798fe640fe9c0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D10.prefab using Guid(1b60fadc5be15ec4798fe640fe9c0855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af40a65d226ad9ca1d12bf96cda79b3e') in 0.0067556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/H9.prefab
+  artifactKey: Guid(0303831a9dd6e114498dab3b2715fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/H9.prefab using Guid(0303831a9dd6e114498dab3b2715fa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e512752eaecf9753e0ad828dd5dd1452') in 0.0069012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/C8.prefab
+  artifactKey: Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C8.prefab using Guid(e35bb05749f8f244ba52eba7e422c9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '256d1ac2660669fc7d6ebd59d380779f') in 0.0074039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Card Prefabs/C5.prefab
+  artifactKey: Guid(12e3352a6f8efd546b7df2bd57842f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/C5.prefab using Guid(12e3352a6f8efd546b7df2bd57842f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc7913ed92fb1c6eed082694095e308f') in 0.0060959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Card Prefabs/S5.prefab
+  artifactKey: Guid(e151edd97daeb184e8bee0a518763d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/S5.prefab using Guid(e151edd97daeb184e8bee0a518763d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b92d9b98ba406c8e45bf8e728ca5b757') in 0.0064088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Card Prefabs/D9.prefab
+  artifactKey: Guid(067e68c5acb09a5408a7c09da12d7558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Card Prefabs/D9.prefab using Guid(067e68c5acb09a5408a7c09da12d7558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b11fd017806d21e8e756dc3f567defc9') in 0.0077482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

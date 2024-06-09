@@ -45,12 +45,11 @@ public class SwipeEventArgs : EventArgs
 
 
 
-    public SwipeEventArgs(ESwipeDirection direction, Vector2 rawDirection, Vector2 position, string cardColor, string cardShape, int cardValue, GameObject hitObject)
+    public SwipeEventArgs(ESwipeDirection direction, Vector2 rawDirection, Vector2 position, string cardColor, string cardShape, int cardValue, GameObject hitObject = null)
     {
         this._direction = direction;
         this._rawDirection = rawDirection;
         this._position = position;  
-        this._hitObject = hitObject;
         this._cardColor = cardColor;
         this._cardShape = cardShape;
         this._cardValue = cardValue;

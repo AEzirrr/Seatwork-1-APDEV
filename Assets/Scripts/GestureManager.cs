@@ -65,8 +65,6 @@ public class GestureManager : MonoBehaviour
             hitObject = hit.collider.gameObject;
         }
 
-        Debug.Log(hitObject);
-
         return hitObject;
     }
 
@@ -120,21 +118,14 @@ public class GestureManager : MonoBehaviour
         TapEventArgs args = new TapEventArgs(this._startPoint);
 
 
-        if (hitObject == deck)
+        if (hitObject == deck) //general tap on the deck
         {
 
             this.OnTap(this, args);
         }
-        
 
 
-        /*if(this.OnTap != null) 
-        {
-            this.OnTap(this, args); 
-        }
-
-
-        if (hitObject != null)
+        /*if (hitObject != null) //direct tap
         {
             ITappable handler = hitObject.GetComponent<ITappable>();
             if (handler != null)
@@ -169,18 +160,18 @@ public class GestureManager : MonoBehaviour
 
 
 
-            SwipeEventArgs args = new SwipeEventArgs(direction, rawDirection, this._startPoint, cardColor, cardShape, cardValue, hitObject);
+            SwipeEventArgs args = new SwipeEventArgs(direction, rawDirection, this._startPoint, cardColor, cardShape, cardValue);
 
             this.OnSwipe(this, args);
 
-            /*if (hitObject != null)
+            if (hitObject != null)
             {
                 ISwipeable handler = hitObject.GetComponent<ISwipeable>();
                 if (handler != null)
                 {
                     handler.OnSwipe(args);
                 }
-            }*/
+            }
         }
 
     }
@@ -217,6 +208,18 @@ public class GestureManager : MonoBehaviour
             {
                 _swipeDirection = ESwipeDirection.RIGHT;
             }
+            else if (rawDirection.x < 0)
+            {
+                _swipeDirection = ESwipeDirection.LEFT;
+            }
+            else if (rawDirection.y > 0)
+            {
+                _swipeDirection = ESwipeDirection.UP;
+            }
+            else if (rawDirection.y < 0)
+            {
+                _swipeDirection = ESwipeDirection.DOWN;
+            }
             else
             {
                 Debug.Log("no Swipe");
@@ -226,14 +229,6 @@ public class GestureManager : MonoBehaviour
 
         return _swipeDirection;
     }
-
-
-
-
-
-
-
-
 
 
 

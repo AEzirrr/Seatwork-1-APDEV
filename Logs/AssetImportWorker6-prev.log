@@ -1,0 +1,481 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.16f1 (7f45223012db) revision 8340770'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+S:\Unity Editor\2023.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+S:/Repositories/Seatwork-1-APDEV
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51547
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: S:/Repositories/Seatwork-1-APDEV
+S:/Repositories/Seatwork-1-APDEV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21440] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1935427491 [EditorId] 1935427491 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21440] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1935427491 [EditorId] 1935427491 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.16f1 (7f45223012db)
+[Subsystems] Discovering subsystems at path S:/Unity Editor/2023.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Repositories/Seatwork-1-APDEV/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004419 seconds.
+- Loaded All Assemblies, in  0.535 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 444 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (209ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (972ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (578ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\Seatwork-1-APDEV\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.013 seconds
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.801 seconds
+Domain Reload Profiling: 1813ms
+	BeginReloadAssembly (415ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (145ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (801ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3297 unused Assets / (1.2 MB). Loaded Objects now: 3846.
+Memory consumption went from 114.1 MB to 112.9 MB.
+Total: 7.811400 ms (FindLiveObjects: 0.548700 ms CreateObjectMapping: 0.647600 ms MarkObjects: 5.204800 ms  DeleteObjects: 1.407900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31047.067652 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D1.mat
+  artifactKey: Guid(ba15042e1439d6842a4c4db385505320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D1.mat using Guid(ba15042e1439d6842a4c4db385505320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f947914ee63c821d12d45956b25dfd61') in 0.1489019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.236471 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat
+  artifactKey: Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat using Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4512c04543aa334122390e6d6ed773c2') in 0.0160988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.480602 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat
+  artifactKey: Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat using Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b3ea231e5a48cd5172e9423426b572c') in 0.0141382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.964035 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat
+  artifactKey: Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat using Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '657f6029409daa13953fb8de4822cb0c') in 0.0135592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.649602 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2.mat
+  artifactKey: Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2.mat using Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e67c030a8e23e7752a16d127680d72d') in 0.0140856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.151979 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat
+  artifactKey: Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat using Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '694c04aa740d8b315c1ffae6aaa87f12') in 0.0162918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.948356 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat
+  artifactKey: Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat using Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6b206b944caa356a89104158444106a') in 0.0150482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.705085 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat
+  artifactKey: Guid(cd40be871728c77458de4deaa4d88fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat using Guid(cd40be871728c77458de4deaa4d88fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54da11fc7b81a9fd2a3dc734de021f90') in 0.0165001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.782011 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6.mat
+  artifactKey: Guid(22a946de3d010b44991a85328a6d59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6.mat using Guid(22a946de3d010b44991a85328a6d59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68ad0aba31c2110e7b8f8e0f98744c5d') in 0.0136203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.385857 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D7.mat
+  artifactKey: Guid(2b5c6237c8798c74882db88e9b8b7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D7.mat using Guid(2b5c6237c8798c74882db88e9b8b7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5686f183e4635cab4edd4772137b01a') in 0.0155648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.458767 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8.mat
+  artifactKey: Guid(03ed11c453bc1fb4097bbd0ceb3c03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8.mat using Guid(03ed11c453bc1fb4097bbd0ceb3c03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93cdb495147d40230682ae7f2c26e791') in 0.0155464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.670614 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D9.mat
+  artifactKey: Guid(9bba9ad13c8b42d41a21983ccac72ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D9.mat using Guid(9bba9ad13c8b42d41a21983ccac72ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dd2e2aaf3fae2fa383f2c4722357511') in 0.0174125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.059067 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10.mat
+  artifactKey: Guid(75a0526efc0c8e949887c7aaaca00347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10.mat using Guid(75a0526efc0c8e949887c7aaaca00347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6afee4d60185ca33c5d1a9853acc60a0') in 0.0184886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.314497 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D11.mat
+  artifactKey: Guid(1c646831531caa740b6bc544e99d58de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D11.mat using Guid(1c646831531caa740b6bc544e99d58de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f235fcb6ba5cdcd6aed02f61ab78f66f') in 0.0185066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.976884 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D12.mat
+  artifactKey: Guid(d76718bd01c7a6d4f9f155f1e211a0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D12.mat using Guid(d76718bd01c7a6d4f9f155f1e211a0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06f9f9f4c54b35e013a1ceed1a28487d') in 0.0145332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.571071 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D13.mat
+  artifactKey: Guid(f6974f41aa2375442bc9c3c8e4b1efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D13.mat using Guid(f6974f41aa2375442bc9c3c8e4b1efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e8fe5b0b739e369653123862fa8b0c') in 0.0213631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.282320 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D1.mat
+  artifactKey: Guid(ba15042e1439d6842a4c4db385505320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D1.mat using Guid(ba15042e1439d6842a4c4db385505320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b245916e70dce0afe7e6196ab55806c6') in 0.0221954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6.mat
+  artifactKey: Guid(22a946de3d010b44991a85328a6d59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6.mat using Guid(22a946de3d010b44991a85328a6d59e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e85bec683df4f0895982f011c8fe826') in 0.0213678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8 1.mat
+  artifactKey: Guid(730560904d8724e4c8ecd650a45ceb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8 1.mat using Guid(730560904d8724e4c8ecd650a45ceb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0760369cf270712684d950fe09f90490') in 0.0208719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D11 1.mat
+  artifactKey: Guid(478c5dd933df0b34d86c830e00c9b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D11 1.mat using Guid(478c5dd933df0b34d86c830e00c9b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65b95e29d9c1a430de19a19233a9f899') in 0.0230377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6 1.mat
+  artifactKey: Guid(840ab626cca64c64fb9ab9f5b548cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D6 1.mat using Guid(840ab626cca64c64fb9ab9f5b548cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e994f8a27ff9aa3757de6ca432b7bea') in 0.0204899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D7 1.mat
+  artifactKey: Guid(e12cb34a1efcb7b4a9ae0397719d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D7 1.mat using Guid(e12cb34a1efcb7b4a9ae0397719d7dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d3f10b3d90d90765c54a72636adeb15') in 0.0154539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10 1.mat
+  artifactKey: Guid(c650838b975bcc445a1f384f24fe71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10 1.mat using Guid(c650838b975bcc445a1f384f24fe71e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f07eb7855dad5e831b50d297278786c') in 0.0227293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D9 1.mat
+  artifactKey: Guid(ef2374b505ff7da40a8b4f9aa212c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D9 1.mat using Guid(ef2374b505ff7da40a8b4f9aa212c4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5035039785400acbae6d5f10999e9c5f') in 0.0188001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2.mat
+  artifactKey: Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2.mat using Guid(491e09e69c3ce974b82612fe020a2482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c09f972d0a05192a353e25e28b33f7c') in 0.0201731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat
+  artifactKey: Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D3.mat using Guid(0ede5f4f9b76d2141b8b59428a8bb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213fe09896d84139dd12e99394945b80') in 0.0276534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat
+  artifactKey: Guid(cd40be871728c77458de4deaa4d88fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D5.mat using Guid(cd40be871728c77458de4deaa4d88fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b7fc821a7a183f96df5d39dbd6ae8b') in 0.0175504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D12 1.mat
+  artifactKey: Guid(0b8bf69f9caacf94688d9325d77c14ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D12 1.mat using Guid(0b8bf69f9caacf94688d9325d77c14ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '802a754d24b8fe61fb5c0c01ae127b17') in 0.0166943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2 1.mat
+  artifactKey: Guid(ea7db614bc6d1864ca952c369e24f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D2 1.mat using Guid(ea7db614bc6d1864ca952c369e24f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adaf768416723ceded9eda25a9a82d82') in 0.0193406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat
+  artifactKey: Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D4.mat using Guid(e57f63bd607c4bd4c81fc28d5a5eb304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c9f99a5e96b6ac7796950badda19cea') in 0.0161397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10.mat
+  artifactKey: Guid(75a0526efc0c8e949887c7aaaca00347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D10.mat using Guid(75a0526efc0c8e949887c7aaaca00347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f034b107de39b5fe23ce79165c2523f5') in 0.0176318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D13.mat
+  artifactKey: Guid(f6974f41aa2375442bc9c3c8e4b1efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D13.mat using Guid(f6974f41aa2375442bc9c3c8e4b1efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e70ee6ad89cc64ec72dbdd2615cdc4') in 0.017041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8.mat
+  artifactKey: Guid(03ed11c453bc1fb4097bbd0ceb3c03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[Resources] Gesture Management [3]/[Resources] Gesture Management [3]/Cards/Materials/D8.mat using Guid(03ed11c453bc1fb4097bbd0ceb3c03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4914f1f8348b04786419c54a6fbc6770') in 0.0170596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

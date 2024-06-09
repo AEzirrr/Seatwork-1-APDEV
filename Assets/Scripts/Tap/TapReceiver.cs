@@ -1,41 +1,65 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using UnityEngine;
 
 public class TapReceiver : MonoBehaviour
 {
     // Template GameObject to be instantiated on tap
-    [SerializeField] private GameObject template;
-    [SerializeField] private List<GameObject> templateList;
-    [SerializeField] private Transform SpawnPos;
+    [SerializeField] private Transform spawnPos;
+
+    private List<GameObject> randomizedDeck;
+    private int currentIndex = 0; 
+    private GameObject previousCard; 
+
+    public void SetRandomizedDeck(List<GameObject> deck)
+    {
+        this.randomizedDeck = deck;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        // Subscribe to the OnTap event from the GestureManager
         GestureManager.Instance.OnTap += this.OnTap;
     }
 
-    // Method called when the object is disabled
     private void OnDisable()
     {
-        // Unsubscribe from the OnTap event when the object is disabled
         GestureManager.Instance.OnTap -= this.OnTap;
     }
 
-    // Event handler method for the OnTap event
     public void OnTap(object sender, TapEventArgs args)
     {
+
         if (args.HitObject == null)
         {
             Debug.Log("TapReceiver: OnTap called");
 
-            Vector3 spawnPos = SpawnPos.position;
+            if (randomizedDeck != null && randomizedDeck.Count > 0)
+            {
+                if (previousCard != null)
+                {
+                    SpawnReceiver spawnReceiver = previousCard.GetComponent<SpawnReceiver>();
 
-            GameObject instance = GameObject.Instantiate(this.template, spawnPos, Quaternion.identity);
-            instance.SetActive(true);
-            this.templateList.Add(instance);
+                    if (!spawnReceiver.IsDocked())
+                    {
+                        Destroy(previousCard);
+                    }
+                    else
+                    {
+                        Debug.Log("Card is docked");
+                    }
+                }
+
+
+                GameObject template = randomizedDeck[currentIndex];
+                GameObject instance = Instantiate(template, spawnPos.position, Quaternion.identity);
+                instance.SetActive(true);
+
+                previousCard = instance;
+            }
         }
+        currentIndex = (currentIndex + 1) % randomizedDeck.Count;
     }
+
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5142648395261478783}
   - component: {fileID: 1871658142444777090}
   - component: {fileID: 7789811402835171932}
+  - component: {fileID: 2718654269641359801}
   m_Layer: 0
   m_Name: D7
   m_TagString: Untagged
@@ -124,3 +125,25 @@ MonoBehaviour:
   _cardColor: red
   _cardShape: diamonds
   _cardValue: 7
+--- !u!114 &2718654269641359801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808754837198501590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928135b981b5c5b4f92cd4057b328327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 20
+  _clubsDock: {fileID: 7435554895204233493, guid: 624f199f7908b244c936bd4897226bc9,
+    type: 3}
+  _spadesDock: {fileID: 8400298685795285863, guid: 614e06dba71513547b9587439d4ad798,
+    type: 3}
+  _heartsDock: {fileID: 7742220750019903845, guid: d5393ffa0b0ebe94fbda0ce71527c7d7,
+    type: 3}
+  _diamondsDock: {fileID: 8515841383621374158, guid: 0ccf84bfe96f1c24aa261d852803c7ed,
+    type: 3}
+  _type: 0
