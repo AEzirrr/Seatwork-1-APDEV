@@ -8,12 +8,14 @@ public class CardManager : MonoBehaviour
     public List<GameObject> loadedCards = new List<GameObject>();
     public List<GameObject> randomizedDeck = new List<GameObject>();
     [SerializeField] private TapReceiver tapReceiver;
+    [SerializeField] private Transform[] tableauPiles; // Array to hold the positions for the piles
 
     void Start()
     {
         LoadPrefabsFromFolder(cardsFolder);
         DeckRandomizer(loadedCards);
         tapReceiver.SetRandomizedDeck(randomizedDeck);
+        DealTableau(); // Calling method to deal the cards
         Debug.Log("Total Cards Loaded: " + randomizedDeck.Count);
         for (int i = 0; i < randomizedDeck.Count; i++)
         {
@@ -53,4 +55,38 @@ public class CardManager : MonoBehaviour
             randomizedDeck[randomIndex] = temp;
         }
     }
+
+    void DealTableau()
+    {
+        int cardIndex = 0;
+
+        for (int i = 0; i < 7; i++)
+        {
+            for (int j = 0; j <= i; j++)
+            {
+                // Instantiate card from deck
+                GameObject card = Instantiate(randomizedDeck[cardIndex], 
+                    tableauPiles[i].position + new Vector3(0, -j * 0.8f, -j * 0.02f), 
+                    Quaternion.identity);
+
+                // Remove card from deck
+                randomizedDeck.RemoveAt(cardIndex);
+
+                // Set card face-up for top card, face-down for others
+                CardProperty cardProperty = card.GetComponent<CardProperty>();
+                if (j == i)
+                {
+                    cardProperty.SetFaceUp(true);
+                }
+                else
+                {
+                    cardProperty.SetFaceUp(false);
+                }
+
+                // Assign card to the appropriate pile
+                card.transform.SetParent(tableauPiles[i]);
+            }
+        }
+    }
+
 }

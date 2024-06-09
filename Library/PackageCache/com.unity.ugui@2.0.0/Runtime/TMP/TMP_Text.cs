@@ -2143,14 +2143,14 @@ namespace TMPro
         /// </summary>
         void PopulateTextProcessingArray()
         {
-            int srcLength = m_TextBackingArray.Count;
-
-            // Make sure parsing buffer is large enough to handle the required text.
-            if (m_TextProcessingArray.Length < srcLength)
-                ResizeInternalArray(ref m_TextProcessingArray, srcLength);
-
             // Reset Style stack back to default
             TMP_TextProcessingStack<int>.SetDefault(m_TextStyleStacks, 0);
+
+            int srcLength = m_TextBackingArray.Count;
+            int requiredCapacity = srcLength + (textStyle.styleOpeningDefinition?.Length ?? 0);
+            // Make sure parsing buffer is large enough to handle the required text.
+            if (m_TextProcessingArray.Length < requiredCapacity)
+                ResizeInternalArray(ref m_TextProcessingArray, requiredCapacity);
 
             m_TextStyleStackDepth = 0;
             int writeIndex = 0;
