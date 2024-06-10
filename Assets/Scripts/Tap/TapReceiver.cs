@@ -65,7 +65,7 @@ public class TapReceiver : MonoBehaviour
 
                 GameObject template = randomizedDeck[currentIndex];
                 GameObject instance = Instantiate(template, spawnPos.position, Quaternion.identity);
-                
+
                 // Set card to be face-up
                 CardProperty cardProperty = instance.GetComponent<CardProperty>();
                 if (cardProperty != null)

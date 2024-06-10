@@ -8,14 +8,14 @@ public class CardManager : MonoBehaviour
     public List<GameObject> loadedCards = new List<GameObject>();
     public List<GameObject> randomizedDeck = new List<GameObject>();
     [SerializeField] private TapReceiver tapReceiver;
-    [SerializeField] private Transform[] tableauPiles; // Array to hold the positions for the piles
+    [SerializeField] private Transform[] tableauPiles;
 
     void Start()
     {
         LoadPrefabsFromFolder(cardsFolder);
         DeckRandomizer(loadedCards);
         tapReceiver.SetRandomizedDeck(randomizedDeck);
-        DealTableau(); // Calling method to deal the cards
+        DealTableau(); 
         Debug.Log("Total Cards Loaded: " + randomizedDeck.Count);
         for (int i = 0; i < randomizedDeck.Count; i++)
         {
@@ -25,7 +25,7 @@ public class CardManager : MonoBehaviour
 
     void LoadPrefabsFromFolder(string path)
     {
-        // Load all prefabs in the specified folder
+
         string[] prefabGuids = AssetDatabase.FindAssets("t:Prefab", new[] { path });
         foreach (string guid in prefabGuids)
         {
@@ -42,14 +42,11 @@ public class CardManager : MonoBehaviour
 
     void DeckRandomizer(List<GameObject> cardsFolder)
     {
-        // Initialize the randomizedDeck list from the provided cardsFolder list
         randomizedDeck = new List<GameObject>(cardsFolder);
 
-        // Fisher-Yates shuffle algorithm
         for (int i = randomizedDeck.Count - 1; i > 0; i--)
         {
             int randomIndex = Random.Range(0, i + 1);
-            // Swap the elements
             GameObject temp = randomizedDeck[i];
             randomizedDeck[i] = randomizedDeck[randomIndex];
             randomizedDeck[randomIndex] = temp;
@@ -64,15 +61,13 @@ public class CardManager : MonoBehaviour
         {
             for (int j = 0; j <= i; j++)
             {
-                // Instantiate card from deck
+
                 GameObject card = Instantiate(randomizedDeck[cardIndex], 
                     tableauPiles[i].position + new Vector3(0, -j * 0.8f, -j * 0.02f), 
                     Quaternion.identity);
 
-                // Remove card from deck
                 randomizedDeck.RemoveAt(cardIndex);
 
-                // Set card face-up for top card, face-down for others
                 CardProperty cardProperty = card.GetComponent<CardProperty>();
                 if (j == i)
                 {
@@ -83,7 +78,6 @@ public class CardManager : MonoBehaviour
                     cardProperty.SetFaceUp(false);
                 }
 
-                // Assign card to the appropriate pile
                 card.transform.SetParent(tableauPiles[i]);
             }
         }

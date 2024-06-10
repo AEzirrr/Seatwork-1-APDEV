@@ -9,10 +9,20 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
     [SerializeField] private Transform _spadesDock;
     [SerializeField] private Transform _heartsDock;
     [SerializeField] private Transform _diamondsDock;
-    
+
     [SerializeField] private int _type;
 
     private bool _docked;
+
+    private static int _clubsTopCard = 0;
+    private static int _spadesTopCard = 0;
+    private static int _heartsTopCard = 0;
+    private static int _diamondsTopCard = 0;
+
+    private static int _clubsCardCount = 0;
+    private static int _spadesCardCount = 0;
+    private static int _heartsCardCount = 0;
+    private static int _diamondsCardCount = 0;
 
     public bool IsDocked()
     {
@@ -32,7 +42,6 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
             case 0:
                 Debug.Log(args.Direction);
                 MoveToDock(args);
-                
                 break;
             case 1:
                 MoveDiagonal(args);
@@ -57,34 +66,73 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
 
     private void MoveToDock(SwipeEventArgs args)
     {
-        if(args.Direction == ESwipeDirection.RIGHT)
+        bool canDock = false;
+        Transform targetDock = null;
+        float zOffset = 0.01f; 
+
+        if (args.Direction == ESwipeDirection.RIGHT)
         {
-            if (args.CardShape == "clubs" && args.CardValue == 1)
+            switch (args.CardShape)
             {
-                _targetPosition = _clubsDock.position;
-                _docked = true;
-            }
-            else if (args.CardShape == "spades" && args.CardValue == 1)
-            {
-                _targetPosition = _spadesDock.position;
-                _docked = true;
-            }
-            else if (args.CardShape == "hearts" && args.CardValue == 1)
-            {
-                _targetPosition = _heartsDock.position;
-                _docked = true;
-            }
-            else if (args.CardShape == "diamonds" && args.CardValue == 1)
-            {
-                _targetPosition = _diamondsDock.position;
-                _docked = true;
+                case "clubs":
+                    if (args.CardValue == _clubsTopCard + 1)
+                    {
+                        targetDock = _clubsDock;
+                        _clubsTopCard = args.CardValue;
+                        _clubsCardCount++;
+                        canDock = true;
+                    }
+                    break;
+                case "spades":
+                    if (args.CardValue == _spadesTopCard + 1)
+                    {
+                        targetDock = _spadesDock;
+                        _spadesTopCard = args.CardValue;
+                        _spadesCardCount++;
+                        canDock = true;
+                    }
+                    break;
+                case "hearts":
+                    if (args.CardValue == _heartsTopCard + 1)
+                    {
+                        targetDock = _heartsDock;
+                        _heartsTopCard = args.CardValue;
+                        _heartsCardCount++;
+                        canDock = true;
+                    }
+                    break;
+                case "diamonds":
+                    if (args.CardValue == _diamondsTopCard + 1)
+                    {
+                        targetDock = _diamondsDock;
+                        _diamondsTopCard = args.CardValue;
+                        _diamondsCardCount++;
+                        canDock = true;
+                    }
+                    break;
             }
 
-            _targetPosition.z -= .01f;
-           
-
+            if (canDock)
+            {
+                _targetPosition = targetDock.position;
+                switch (args.CardShape)
+                {
+                    case "clubs":
+                        _targetPosition.z -= _clubsCardCount * zOffset;
+                        break;
+                    case "spades":
+                        _targetPosition.z -= _spadesCardCount * zOffset;
+                        break;
+                    case "hearts":
+                        _targetPosition.z -= _heartsCardCount * zOffset;
+                        break;
+                    case "diamonds":
+                        _targetPosition.z -= _diamondsCardCount * zOffset;
+                        break;
+                }
+                _docked = true;
+            }
         }
-        
     }
 
     private void MovePerpendicular(SwipeEventArgs args)
@@ -122,14 +170,12 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
 
     private void Update()
     {
-        // Move towards the target position
         if (Vector3.Distance(transform.position, _targetPosition) > 0.01f)
         {
             transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
         }
         else
         {
-            // Ensure the card stops exactly at the target position
             transform.position = _targetPosition;
         }
     }
