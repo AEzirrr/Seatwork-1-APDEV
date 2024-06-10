@@ -31,7 +31,7 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
 
     public void OnTap(TapEventArgs args)
     {
-        Destroy(this.gameObject);
+        
         Debug.Log("DESTROY");
     }
 
@@ -56,7 +56,11 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
         {
             Vector2 position = args.TrackedFinger.position;
             Ray ray = Camera.main.ScreenPointToRay(position);
-            Vector2 worldPosition = ray.GetPoint(10);
+            Vector3 worldPosition = ray.GetPoint(10);
+            worldPosition.z = -0.02f; // Set the z value to a fixed position
+
+            // Draw debug ray
+            Debug.DrawRay(ray.origin, ray.direction * 10, Color.red);
 
             this._targetPosition = worldPosition;
             this.transform.position = worldPosition;
@@ -64,11 +68,12 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
         Debug.Log("DRAG");
     }
 
+
     private void MoveToDock(SwipeEventArgs args)
     {
         bool canDock = false;
         Transform targetDock = null;
-        float zOffset = 0.01f; 
+        float zOffset = 0.01f;
 
         if (args.Direction == ESwipeDirection.RIGHT)
         {

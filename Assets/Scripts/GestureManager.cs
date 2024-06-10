@@ -105,7 +105,6 @@ public class GestureManager : MonoBehaviour
     // Method to fire the tap event
     private void FireTapEvent()
     {
-
         GameObject hitObject = null;
         Ray ray = Camera.main.ScreenPointToRay(this._startPoint);
         RaycastHit hit;
@@ -117,10 +116,9 @@ public class GestureManager : MonoBehaviour
 
         TapEventArgs args = new TapEventArgs(this._startPoint);
 
-
-        if (hitObject == deck) //general tap on the deck
+        // Check if the hit object is the deck and fire the tap event
+        if (hitObject == deck)
         {
-
             this.OnTap(this, args);
         }
 
