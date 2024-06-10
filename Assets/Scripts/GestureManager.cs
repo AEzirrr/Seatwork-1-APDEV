@@ -153,7 +153,7 @@ public class GestureManager : MonoBehaviour
             string cardShape = cardProperty.CardShape;
             int cardValue = cardProperty.CardValue;
 
-
+            Debug.Log(hitObject);
             Debug.Log(cardColor);
             Debug.Log(cardShape);
             Debug.Log(cardValue);
