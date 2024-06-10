@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PileArea
+  - PileTrigger1
+  - PileTrigger2
+  - PileTrigger3
+  - PileTrigger4
+  - PileTrigger5
+  - PileTrigger6
+  - PileTrigger7
   layers:
   - Default
   - TransparentFX

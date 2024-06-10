@@ -10,13 +10,18 @@ public class CardManager : MonoBehaviour
     [SerializeField] private TapReceiver tapReceiver;
     [SerializeField] private Transform[] tableauPiles;
 
+    public List<CardProperty>[] pileCards = new List<CardProperty>[7];
+
     void Start()
     {
         LoadPrefabsFromFolder(cardsFolder);
         DeckRandomizer(loadedCards);
         tapReceiver.SetRandomizedDeck(randomizedDeck);
+        //InitializePileCards();
         DealTableau(); 
         Debug.Log("Total Cards Loaded: " + randomizedDeck.Count);
+
+
         for (int i = 0; i < randomizedDeck.Count; i++)
         {
             Debug.Log(randomizedDeck[i].name);
@@ -53,6 +58,13 @@ public class CardManager : MonoBehaviour
         }
     }
 
+    void InitializePileCards()
+    {
+        for (int i = 0; i < 7; i++)
+        {
+            pileCards[i] = new List<CardProperty>();
+        }
+    }
     void DealTableau()
     {
         int cardIndex = 0;
@@ -79,6 +91,7 @@ public class CardManager : MonoBehaviour
                 }
 
                 card.transform.SetParent(tableauPiles[i]);
+                //pileCards[i].Add(cardProperty);
             }
         }
     }

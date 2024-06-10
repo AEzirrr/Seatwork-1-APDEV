@@ -58,10 +58,134 @@ public class SpawnReceiver : MonoBehaviour, ITappable, ISwipeable, IDraggable
             Ray ray = Camera.main.ScreenPointToRay(position);
             Vector2 worldPosition = ray.GetPoint(10);
 
-            this._targetPosition = worldPosition;
-            this.transform.position = worldPosition;
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                if (hit.collider.CompareTag("PileTrigger1"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if(CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger2"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger3"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger4"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger5"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger6"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+                if (hit.collider.CompareTag("PileTrigger7"))
+                {
+                    _targetPosition = hit.point;
+                    transform.position = _targetPosition;
+                    CardProperty draggedCard = this.GetComponent<CardProperty>();
+                    PileProperty targetPile = hit.transform.GetComponent<PileProperty>();
+
+                    if (CanBePlacedOnPile(targetPile, draggedCard))
+                    {
+                        _targetPosition = hit.point;
+                        transform.position = _targetPosition;
+                        AddCardToPile(targetPile, draggedCard);
+                    }
+                }
+            }
         }
-        Debug.Log("DRAG");
+    }
+
+    private bool CanBePlacedOnPile(PileProperty pile, CardProperty card)
+    {
+        if(pile == null)
+        {
+            return false;
+        }
+
+        int topCardValue = pile.GetTopCardValue();
+        string topCardColor = pile.GetTopCardColor();
+
+        if(card.CardValue == topCardValue + 1 && card.CardColor != topCardColor)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    private void AddCardToPile(PileProperty pile, CardProperty card)
+    {
+        if (pile != null)
+        {
+            pile.AddCard(card);
+        }
     }
 
     private void MoveToDock(SwipeEventArgs args)
