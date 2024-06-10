@@ -17,7 +17,7 @@ public class CardManager : MonoBehaviour
         LoadPrefabsFromFolder(cardsFolder);
         DeckRandomizer(loadedCards);
         tapReceiver.SetRandomizedDeck(randomizedDeck);
-        //InitializePileCards();
+        InitializePileCards();
         DealTableau(); 
         Debug.Log("Total Cards Loaded: " + randomizedDeck.Count);
 
@@ -91,7 +91,7 @@ public class CardManager : MonoBehaviour
                 }
 
                 card.transform.SetParent(tableauPiles[i]);
-                //pileCards[i].Add(cardProperty);
+                pileCards[i].Add(cardProperty);
             }
         }
     }
